@@ -1,0 +1,21 @@
+.address-lable {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  color: #343a40;
+}
+.phoneNumber-code {
+  display: flex;
+}
+.phoneNumber-code img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+button {
+  border: none;
+}

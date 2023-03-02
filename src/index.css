@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f2f2f2;
+  text-transform: lowercase !important;
+  overflow-x: hidden;
+}
+h1 {
+  font-weight: medium;
+  font-size: 60px;
+}
+h2 {
+  font-weight: medium;
+
+  font-size: 48px;
+}
+h3 {
+  font-weight: medium;
+
+  font-size: 36px;
+}
+.avoid-clicks {
+  pointer-events: none;
+}
+h4 {
+  font-weight: medium;
+
+  font-size: 30px;
+}
+h5 {
+  font-weight: medium;
+
+  font-size: 24px;
+}
+h6 {
+  font-weight: medium;
+
+  font-size: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+a {
+  text-decoration: none;
+  color: #343a40;
+}
+.btn-outline-primary {
+  color: #ff2e63;
+  border-color: #ff2e63;
+}
+.btn-outline-secondary {
+  color: #22621a;
+  border-color: #22621a;
+}
+.small-label {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px !important;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  h4 {
+    font-size: 16px !important;
+  }
+  h5 {
+    font-size: 14px !important;
+  }
+  h6 {
+    font-size: 12px !important;
+  }
+  .small-label {
+    font-size: 12px !important;
+  }
+  .button-size {
+    width: 180px !important;
+  }
+}
+.button-size label {
+  cursor: pointer;
+}
+
+svg {
+  cursor: pointer;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #ff2e63;
+  border-color: #ff2e63;
+}
+.btn-outline-primary:hover svg {
+  fill: #fff;
+}
+.btn-outline-primary {
+  color: #ff2e63;
+  border-color: #ff2e63;
+}
+.btn-outline-primary svg {
+  fill: #ff2e63;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  position: relative;
+  cursor: pointer !important;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  cursor: pointer !important;
+
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #979797;
+  border-radius: 10px;
+  cursor: pointer !important;
+}
+
+.shadow-sm {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084),
+    0px 0px 3px rgba(52, 58, 64, 0.168) !important;
+}
+
+.tooltip-inner {
+  max-width: 400px !important;
+  background: #343a40;
+}
+.borderradius {
+  border-radius: 20px;
+}
+input {
+  text-transform: lowercase !important;
+}
+.pcb-list {
+  list-style: none; /* Remove default bullets */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  /* or 194% */
+
+  text-align: justify;
+  text-transform: lowercase;
+  color: #667085;
+}
+.pcb-list li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #e11045;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+/* .ant-back-top {
+  position: fixed;
+  bottom: 200px;
+  right: 35px;
+  z-index: 9999;
+} */
+.back-to-top {
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+  z-index: 9999;
+}
+.btn-outline-primary:active {
+  background-color: #ff2e63;
+  border-color: #ff2e63;
+}
+.btn-outline-primary:active svg {
+  fill: #fff;
+}
+
+.btn-outline-primary:focus {
+  background-color: #ff2e63;
+  border-color: #ff2e63;
+}
+.btn-outline-primary:focus svg {
+  fill: #fff;
+}
+.form-control {
+  background-color: rgba(151, 151, 151, 0.1) !important;
+  border-radius: 8px !important;
+}
+.form-control:focus {
+  background-color: #fff !important;
+  border-color: rgba(0, 0, 0, 0.4);
+  box-shadow: none !important;
+}
+.btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  border-radius: 8px !important;
+
+  text-transform: lowercase;
+}
+.btn-outline-danger {
+  color: #e11045;
+  border-color: #e11045;
+}
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #e11045;
+  border-color: #e11045;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #e11045 !important;
+  border-color: #e11045 !important;
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: #db0038 !important;
+  border-color: #db0038 !important;
+}
+.btn-outline-primary:disabled {
+  color: #db0038;
+  background-color: transparent;
+}
+button {
+  background-color: transparent;
+}
+.ant-back-top {
+  right: 45px;
+  bottom: 260px;
+}

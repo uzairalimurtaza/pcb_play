@@ -1,0 +1,45 @@
+.invoice-header {
+  background: url("./greenbg.png") no-repeat;
+  background-size: contain;
+  background-position: 105%;
+  border-bottom: 1px solid #ddd;
+}
+.invoice-header h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height */
+
+  text-align: right;
+  text-transform: lowercase;
+
+  color: #f3f3f3;
+}
+.invoice-project-Detail-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.invoice-project-Detail-box {
+  border-radius: 8px;
+}
+.invoice-project-Detail-item:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.invoice-project-Detail-item:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.invoice-project-Detail-item.strip {
+  background: rgba(151, 151, 151, 0.1);
+}
+.invoice-cart-Detail-box {
+  background: rgba(151, 151, 151, 0.1);
+}
+.invoice-cart-Detail-table {
+  max-height: 300px;
+  overflow-y: auto;
+}

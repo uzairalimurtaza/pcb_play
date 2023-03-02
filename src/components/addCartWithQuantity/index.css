@@ -1,0 +1,54 @@
+.pcb-add-to-cart {
+  background: #ffffff;
+  border: 0.5px solid rgba(52, 58, 64, 0.2);
+  border-radius: 8px;
+  display: flex;
+}
+.pcb-add-btn {
+  background: #f2fff8 !important;
+  border-left: 1px solid rgba(52, 58, 64, 0.2) !important;
+  border-radius: 0px 8px 8px 0px !important;
+  color: #22621a !important;
+  width: 75px;
+  height: 40px;
+  /* identical to box height, or 183% */
+  transition: all 0.2s ease-in-out;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: lowercase;
+}
+.pcb-qty-icon {
+  width: 15px;
+  height: 20px;
+}
+.pcb-add-btn.active {
+  background: #22621a !important;
+  border: 1px solid #22621a !important;
+  border-radius: 0px 8px 8px 0px !important;
+  color: #ffffff !important;
+}
+.pcb-add-btn.remove {
+  background: #e11045 !important;
+  border: 1px solid #e11045 !important;
+}
+table {
+  overflow: auto;
+}
+@media screen and (max-width: 1326px) {
+  .pcb-add-btn {
+    width: 55px;
+  }
+  .pcb-add-btn {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 742px) {
+  .pcb-add-btn {
+    width: 75px;
+  }
+  .pcb-add-btn {
+    font-size: 16px !important;
+  }
+}

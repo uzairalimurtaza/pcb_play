@@ -1,0 +1,57 @@
+.accordion-button:not(.collapsed) {
+  background: #f2fff8 !important;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: none;
+
+  outline: 0;
+  box-shadow: none !important ;
+}
+.accordion-button {
+  padding: 8px !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23E11045'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+.faqs-container {
+  padding: 0 3rem !important;
+}
+.faqs-accordion-body p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: justify;
+  text-transform: lowercase;
+
+  color: #22621a;
+}
+.pcb-list-box {
+  background: #ffffff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+  border-radius: 8px;
+}
+.faqs-accordion-body,
+.faqs-accordion-header {
+  border-radius: 8px !important;
+}
+.faqs-accordion-body button,
+.faqs-accordion-header button {
+  border-radius: 8px !important;
+}
+.faqs-accordion-item {
+  background: #ffffff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+  border-radius: 8px !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 480px) {
+  .faqs-container {
+    padding: 20px !important;
+  }
+}

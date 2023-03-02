@@ -1,0 +1,158 @@
+{
+  "highLevelDetils": [
+    "Due to the automatic nature of pcbplay, users are not permitted to move block locations. Pcbplay designers will take into account the needs of individual blocks to determine optimal placement on the board.",
+    "All orders are non-cancellable and non-returnable (NCNR), which means that once an order is placed and payment is received, it  cannot be canceled or returned.",
+    "Depending on the complexity, a design fee of between $25 and $150 will be applied to all initial orders of a design.",
+    "Within a week of placing your order, you will get a downloadable version of the source files (BRD and SCH) and Gerber files.",
+    "Any shipping constraints on a block or technology will limit the overall assembly. For example, if you opt to include a high-precision GPS block in your design, your order will be limited to places where the high-precision GPS breakout board may be sent.",
+    "We guarantee the electrical design of a board and will run basic functional tests on all of the blocks, but we do not guarantee that the board will execute the desired end application.",
+    "All boards are black soldermask with white silkscreen, and the order number will be silkscreened on the board. A logo can be placed on the board, if requested.",
+    "All boards contain a USB-C port for both power and serial programming."
+  ],
+  "faqs": [
+    {
+      "label": "General",
+      "questions": [
+        {
+          "question": "How do I create a board over pcbplay?",
+          "answer": "The pcbplay interface will guide you through choosing your controller and components. These components are referred to as 'blocks' within pcbplay. If there are not enough pins on the controller or space to place components, pcbplay will not allow you to choose the next block. Currently, pcbplay requires all boards have a single controller with a component to be able to create an order."
+        },
+        {
+          "question": "What type of connector is used?",
+          "answer": "RJ45 connector is used for ethernet communication. Other than that, various types of standard header connectors are used for all other connections. You can contact us via live chat if custom connectors are required."
+        },
+        {
+          "question": "How to decide which connector to use?",
+          "answer": "The header connector is decided according to the pin needs of the selected blocks."
+        },
+        {
+          "question": "How to decide power connectors?",
+          "answer": "Power components and connectors are decided automatically according to the power consumption of the blocks added to the cart."
+        },
+        {
+          "question": "What if existing components that pcbplay serve do not meet my requirements?",
+          "answer": "We will be waiting for you on live chat to find a solution for your custom design requirements."
+        },
+        {
+          "question": "Is an account necessary to use pcbplay?",
+          "answer": "Yes, an account is required to create orders and  save your designs on pcbplay. If you are not logged in when you start a project, you will be asked to sign in or create an account before adding blocks to the cart."
+        },
+        {
+          "question": "Why can't I move the blocks around?",
+          "answer": "A: Due to the automated nature of pcbplay, we do not allow users to place blocks. pcbplay will take into account the needs of individual blocks to determine where to place them."
+        },
+        {
+          "question": "Is there a minimum order amount?",
+          "answer": "Yes; 2, 3 or 5 qty pcb boards can be ordered for now."
+        },
+        {
+          "question": "How much is the design fee?",
+          "answer": "The design&manufacturing fee varies between $200 to $450. The design fee varies depending on pcb board size, pcb board order quantity and component assembly side(s) parameters. This fee also covers the expenses of pcb manufacturing, assembly and functional tests to build your board."
+        },
+        {
+          "question": "What exactly is included in my purchase?",
+          "answer": "The fully populated board(s), downloadable version of source files (BRD and SCH) and gerber files are included with the purchase."
+        },
+        {
+          "question": "Where can I find out how much each board costs?",
+          "answer": "Board pricing may be found in the lower right hand corner of the page, underneath the board options section. This pricing will be updated when you add more blocks to your board or change dimensions."
+        },
+        {
+          "question": "When will my boards be delivered?",
+          "answer": "Most boards will ship 3-4 weeks after the purchase is placed due to the custom nature of pcbplay orders. Longer lead times may apply to large orders. You will be notified via email when your board moves to manufacturing, as well as tracking information after your boards have shipped."
+        },
+        {
+          "question": "Who owns the design?",
+          "answer": "For a variety of legal reasons, pcbplay owns the design, and here’s why: The pcbplay system is built on automation. Let’s say you drop eight blocks onto a design and then order. If you owned this design, what happens when another customer adds those same eight blocks onto their design? You each likely have a very different target application, with different code, but this other customer needs to use the same eight blocks. For this reason, pcbplay owns the design, but grants you the right to produce and use boards of the design."
+        },
+        {
+          "question": "Will my circuit boards be RoHS compliant?",
+          "answer": "Although pcbplay utilizes a lead-free method, stocks lead-free materials, and will use RoHS suitable PCBs, we cannot ensure that the final assembly will be RoHS compliant, nor can we certify your board for you."
+        },
+        {
+          "question": "How can I verify that my design will do what I want?",
+          "answer": "It is your responsibility to prototype your design before ordering an assembled version. We recommend building a physical prototype of your design using evaluation boards."
+        },
+        {
+          "question": "How can I verify that my design will do what I want?",
+          "answer": "It is your responsibility to prototype your design before ordering an assembled version. We recommend building a physical prototype of your design using evaluation boards."
+        }
+      ]
+    },
+    {
+      "label": "Board design",
+      "questions": [
+        {
+          "question": "Can I choose where the blocks go on the board?",
+          "answer": "Due to the automatic nature of pcbplay, users are not permitted to move block locations. Pcbplay designers will take into account the needs of individual blocks to determine optimal placement on the board. To establish ideal placement on the board, pcbplay designers will consider the needs of each  block."
+        },
+        {
+          "question": "What size board can I create?",
+          "answer": "pcbplay can create boards ranging in size from 9 square-cm to 400 square-cm. All boards are autosized by default to optimize block placement. Users can also set  length and width parameters of their boards. At the moment, pcbplay can only generate rectangular boards."
+        },
+        {
+          "question": "Can I make a double-sided design?",
+          "answer": "Yes, either single sided or double sided component assembly can be selected from the options section on the design page."
+        },
+        {
+          "question": "How do I program my board?",
+          "answer": "All controllers will have a serial bootloader available and a USB-C connection for both power and serial programming."
+        },
+        {
+          "question": "How does the power budget manage?",
+          "answer": "Power regulators and power connectors are automatically placed to the design according to the maximum power consumption of  the components added to the cart."
+        },
+        {
+          "question": "Will the receptacle header connector-cable pairs be included with my pcbplay design?",
+          "answer": "Yes, receptacle header connectors with labeled cables will also be sent to you."
+        },
+        {
+          "question": "I want to use a block that is export-controlled. What is the procedure for this?",
+          "answer": "Any shipping constraints on a block or technology will limit the overall assembly. For example, if you opt to include a high-precision GPS block in your design, your order will only be allowed to ship to destinations where the high-precision GPS breakout board can ship."
+        }
+      ]
+    },
+    {
+      "label": "projects",
+      "questions": [
+        {
+          "question": "Can I save my design?",
+          "answer": "Yes. Users who have a pcbplay account will have their designs saved automatically. We recommend giving your projects unique names to make them simpler to find later. All designs are labeled 'My Project' by default."
+        },
+        {
+          "question": "Can I show my design to others?",
+          "answer": "Users must currently be signed in to view their saved designs, and designs cannot be shared across accounts."
+        },
+        {
+          "question": "Can I modify a previous project?",
+          "answer": "For the time being, it is not possible to modify/update a project. Instead, you can create another one."
+        }
+      ]
+    },
+    {
+      "label": "ordering",
+      "questions": [
+        {
+          "question": "Can I modify my design after I've placed my order?",
+          "answer": "For the time being, it is not possible to modify/update a project. Instead, you can make another one."
+        },
+        {
+          "question": "Is it possible to reorder my design?",
+          "answer": "You can certainly reorder previously purchased designs."
+        },
+        {
+          "question": "Can you add a unique identity on each board?",
+          "answer": "An order number will be placed on the PCB. You may contact us via chat and ask for a custom logo to be included on the board."
+        },
+        {
+          "question": "Can you load my own firmware on my boards?",
+          "answer": "We are unable to provide this service at this time. All pcbplay boards will be sent without firmware."
+        },
+        {
+          "question": "Is it possible to pay with a purchase order (PO)?",
+          "answer": "as of now, it is not possible."
+        }
+      ]
+    }
+  ]
+}

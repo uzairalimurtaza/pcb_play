@@ -1,0 +1,34 @@
+.qty-box {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+
+  background: #ffffff;
+  border: 1px solid #22621a;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 7px 12px;
+  width: 80px;
+}
+.qty-icon {
+  fill: #979797;
+}
+.minus-btn:hover .qty-icon {
+  fill: #22621a;
+}
+.qty-value {
+  margin-inline: 10px;
+  width: 20px;
+  min-width: 20px;
+  text-align: center;
+}
+.trash-icon {
+  fill: #979797;
+}
+.minus-btn {
+  min-height: 10px;
+}
+.minus-btn:hover .trash-icon {
+  fill: #e11045;
+}

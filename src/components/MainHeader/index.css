@@ -1,0 +1,48 @@
+.nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #343a40;
+}
+.pcb-navbar {
+  padding-inline: 3rem;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-nav {
+  grid-gap: 3rem;
+  gap: 3rem;
+}
+@media screen and (max-width: 480px) {
+  .pcb-navbar {
+    padding-inline: 0.5rem !important;
+  }
+  .mobile-nav {
+    grid-gap: 1rem !important;
+    gap: 1rem !important;
+  }
+}
+.showOuter {
+  position: relative;
+}
+.showOuter::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  display: block;
+
+  border-radius: 50%;
+  transform: scale(1.2);
+
+  pointer-events: none;
+  z-index: 999;
+  border: 2px solid rgba(34, 98, 26, 0.2);
+}

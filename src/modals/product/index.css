@@ -1,0 +1,13 @@
+.customHeaderBox {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.customHeaderBox h6 {
+  flex-grow: 1 !important;
+}
+@media screen and (max-width: 480px) {
+  .customHeaderBox h6 {
+    width: 80%;
+  }
+}

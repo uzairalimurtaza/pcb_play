@@ -1,0 +1,41 @@
+[
+  {
+    "heading": "what we know about you ?",
+    "paras": [
+      "we’ll have access to your email address and any additional contact information you choose to provide us if you create an account with pcbplay. when you place an order, we keep a record of the order's contents, shipping and billing address information, and any correspondence you may have with our customer support staff regarding the transaction.",
+      "if you visit pcbplay.com, whether logged in or not, we know that a user with your ip address has visited the site.",
+      "we gather information about the items and material you view in order to provide better value to you and determine which products/content are most beneficial to you."
+    ]
+  },
+  {
+    "heading": "when and how we send email ?",
+    "paras": [
+      "when orders are placed, paused, or shipped, we notify users through email. we may be in contact when an order requires payment before shipping or if other issues prevent us from fulfilling an order. if you require a password reset or want to verify your email address, we will send you an email. we may send you an email asking for product reviews or comments on your experience with our website, products, or customer service.",
+      "if it is within our ability to do so, we will notify users if we feel their privacy has been violated. for example, if we learn that a customer's account user login information has been disclosed elsewhere on the internet, or if we are required to reveal information to law enforcement.",
+      "we may provide a set of opt-in email subscriptions for things like newsletters, product in-stock updates, and comment reply notifications. all new customers are automatically subscribed to our main newsletter, and pcbplay has the right to add all new and current customers to existing and new newsletters at any moment.",
+      "we may occasionally send you an email that you did not request or trigger with an action of any kind in order to promote a certain aspect of our site, products, or services."
+    ]
+  },
+  {
+    "heading": "when you talk to our support teams ?",
+    "paras": [
+      "if you contact or chat with us for help, we can and, in most cases, will record the interaction. this is done for training and auditing purposes only, and private communications between customers and support personnel are never sold or shared with third parties (except when a third party tool, such as email or our chat service, is used to make the interaction possible)."
+    ]
+  },
+  {
+    "heading": "logging and log retention",
+    "paras": [
+      "in order to understand traffic to our sites and diagnose technical problems, we log individual web requests.",
+      "we log ip addresses for specified actions, such as creating a customer account and placing an order, to prevent fraud and detect harmful conduct.",
+      "except in the case of malicious traffic, we will not share log data with any third party, unless compelled by legal process to do so."
+    ]
+  },
+  {
+    "heading": "cookies, tags, tracking pixels, and https",
+    "paras": [
+      "we use cookies, tags, and tracking pixels to know when users are logged in to pcbplay services and to track preferences such as display currencies and the rendering of product menus.",
+      "tags/tracking pixels are used by our analytics software to help us keep track of how many unique visitors we are getting, where they come from, and how they browse our site. this information is used to enhance the site.",
+      "we do our best to serve all content securely over https."
+    ]
+  }
+]

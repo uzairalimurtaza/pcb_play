@@ -1,0 +1,61 @@
+[
+  {
+    "heading": "email",
+    "paras": [
+      "we use gmail, and mail sent to or from pcbplay.com addresses generally passes through google’s servers."
+    ]
+  },
+  {
+    "heading": "shipping providers and export control",
+    "paras": [
+      "we offer shipping through third parties like fedex, ups and others. we pass delivery addresses, phone numbers, and invoice to these companies to the extent required for quoting shipping prices and successful delivery of orders.",
+      "we comply with turkey export regulations and authorities. we use visual compliance to automatically screen billing and delivery addresses for potential export control violations. this entails transmission of customer billing and delivery address information to visual compliance servers."
+    ]
+  },
+  {
+    "heading": "third party fulfillment centers",
+    "paras": [
+      "the third-party fulfillment center will only have access to information on the dispatch of your item. this may include your name, address, and order-related contact information. we will not disclose any of your data that is not directly related to orders, including but not limited to email, payment information, profile information, and so on."
+    ]
+  },
+  {
+    "heading": "payment providers",
+    "paras": [
+      "payments are processed through stripe and paypal. all credit card data including the cardholder name, credit card number, expiration date, cvv, and full billing address are sent to stripe and paypal via an api for processing. details regarding what products a customer is purchasing and other demographic information are not sent to payment providers.",
+      "each transaction is recorded by keeping the transaction amount, the cardholder's name, the last four digits of the credit card, and the expiration date of the card.",
+      "paypal and stripe are both accepted as payment methods. when paying with paypal on pcbplay.com, users must enter their paypal email address. the user will then be sent to paypal.com to make their payment before being forwarded to pcbplay.com to finalize the order."
+    ]
+  },
+  {
+    "heading": "analytics",
+    "paras": [
+      "pcbplay tracks aggregate visitor activity on pcbplay.com using google analytics, hubspot, doubleclick, facebook, and crazyegg.",
+      "google analytics demographics and interest statistics are also used by pcbplay. this implies that we combine personally identifiable information about your pcbplay account, browsing, and purchasing behavior with google's tracking cookies, and all of this information is sent to google. this is enabled by default for all pcbplay.com visitors."
+    ]
+  },
+  {
+    "heading": "content hosting",
+    "paras": [
+      "we serve image files (like product images) and other resources from digital ocean."
+    ]
+  },
+  {
+    "heading": "chat and search",
+    "paras": [
+      "to provide chat functionalities, we use tawk.to. on each page, a short javascript fragment is loaded from the servers of tawk.to.",
+      "swiftype is used to give search results for goods, blog entries, tutorials, wish lists, and other material on pcbplay.com. swiftype receives the text of search strings from our servers."
+    ]
+  },
+  {
+    "heading": "social media",
+    "paras": [
+      "we have accounts on several social networking sites, including facebook, twitter, google+, and youtube.",
+      "ticketing/crm",
+      "we use hubspot to manage and prioritize customer contacts, including those by email, phone, chat, and social media.",
+      "youtube video",
+      "youtube data is gathered through the use of youtube api services. youtube videos are subject to google's privacy policies.",
+      "questions?",
+      "if you have any questions or complaints concerning this privacy policy, including if you believe pcbplay or a member of the pcbplay community has violated it, or if you are concerned about pcbplay's overall approach to user privacy, please contact us at info@pcbplay.com."
+    ]
+  }
+]

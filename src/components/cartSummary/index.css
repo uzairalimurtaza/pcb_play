@@ -1,0 +1,87 @@
+.cart-item {
+  border-bottom: 1px solid #e6e6e6;
+}
+.pcb-box {
+  border-radius: 10px;
+}
+.pcb-box-header h6 {
+  font-size: 14px !important;
+  color: #fff;
+}
+.pcb-box-header {
+  background: #22621a;
+  border-radius: 8px 8px 0px 0px;
+}
+.cart-desc label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 141%;
+  /* identical to box height, or 17px */
+
+  color: #343a40;
+}
+.cart-desc p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 141%;
+  /* identical to box height, or 17px */
+
+  color: #979797;
+}
+.cart-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 146.1%;
+  /* identical to box height, or 18px */
+
+  color: #343a40;
+}
+.cart-fee-section label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: lowercase;
+
+  color: #343a40;
+}
+.cart-fee-section span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  text-align: right;
+  text-transform: lowercase;
+
+  color: #343a40;
+}
+.cart-subtotal label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  text-transform: lowercase;
+
+  color: #343a40;
+}
+.cart-subtotal span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  text-align: right;
+  text-transform: lowercase;
+
+  color: #343a40;
+}

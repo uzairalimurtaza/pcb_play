@@ -1,0 +1,31 @@
+.content-main-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+}
+.custom-input {
+  outline: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #343a40;
+}
+
+.table-curved {
+  border-radius: 8px;
+
+  /* overflow: hidden; */
+}
+
+@media screen and (max-width: 480px) {
+  .content-main-heading {
+    font-size: 14px !important;
+  }
+  .box {
+    justify-content: center !important;
+  }
+}

@@ -1,0 +1,10 @@
+.upload-file-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px dashed #343a40;
+  border-radius: 8px;
+}

@@ -1,0 +1,81 @@
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form-box {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 44px;
+  position: relative;
+  z-index: 1;
+}
+.login-form-box p {
+  position: relative;
+  z-index: 999;
+}
+.login-right-box {
+  position: relative;
+}
+
+.login-form {
+  z-index: 999;
+  position: relative;
+}
+.passwordInput {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.login-form input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.pcb-icon-box-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68.997px;
+  line-height: 88px;
+  /* or 128% */
+
+  text-transform: lowercase;
+
+  color: #e11045;
+}
+.pcb-icon-box-text span {
+  color: #22621a;
+}
+@media screen and (max-width: 480px) {
+  .login-form-box {
+    width: 100% !important;
+  }
+  .pcb-icon-box-text {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .pcb-icon-box-text {
+    width: 100% !important;
+
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 839px) {
+  .pcb-icon-box-text {
+    width: 100% !important;
+
+    font-size: 40px;
+    line-height: 60px;
+  }
+}

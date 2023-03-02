@@ -1,0 +1,43 @@
+.pcb-custom-tab {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  border: none !important;
+  border-radius: 8px;
+  padding: 10px;
+}
+.pcb-custom-tab .nav-item {
+  border: 0;
+  background-color: white;
+  margin-inline: 10px;
+  border-radius: 8px;
+}
+.pcb-custom-tab .nav-item a {
+  color: #e11045 !important;
+  border: none;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+.pcb-custom-tab .nav-item a.active {
+  border: 1px solid #e11045;
+}
+.pcb-services-box {
+  width: 75%;
+}
+
+@media screen and (max-width: 480px) {
+  .pcb-services-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1455px) {
+  .pcb-services-box {
+    width: 100%;
+  }
+  .pcb-custom-tab {
+    max-width: 350px;
+    margin: auto;
+  }
+}

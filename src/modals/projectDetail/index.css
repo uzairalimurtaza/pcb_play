@@ -1,0 +1,42 @@
+.cart-item {
+  border-bottom: 1px solid #e6e6e6;
+}
+.pcb-box {
+  border-radius: 10px;
+}
+.pcb-box-header h6 {
+  font-size: 16px !important;
+  color: #fff;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+.gerenal-info-item {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.gerenal-info-item:last-child {
+  border-bottom: none;
+}
+.gerenal-info-item label {
+  width: 200px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  text-transform: lowercase;
+
+  color: #343a40;
+  padding-right: 10px;
+}
+.gerenal-info-item span {
+  word-wrap: break-word;
+  width: 50%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}

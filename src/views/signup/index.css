@@ -1,0 +1,142 @@
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+.login-form-box {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 44px;
+  position: relative;
+  z-index: 1;
+}
+
+.login-right-box {
+  position: relative;
+}
+.register-box {
+  padding-inline: 20px;
+}
+.pcb-firstName-input {
+  width: 50%;
+}
+.error {
+  height: 10px !important;
+  position: absolute;
+  margin-top: 0 !important;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .register-box {
+    padding-inline: 0px !important;
+  }
+  .pcb-input-box {
+    flex-wrap: wrap;
+  }
+  .pcb-firstName-input {
+    width: 100% !important;
+  }
+}
+.icon-box-icon {
+  max-width: 571.798px;
+  max-height: 377.276px;
+}
+.icon-box-icon svg {
+  width: 100%;
+  height: 100%;
+}
+.googleBtn {
+  position: relative;
+  z-index: 999;
+  border-radius: 8px !important;
+
+  width: 250px !important;
+}
+.googleBtn div {
+  border-radius: 8px !important;
+}
+.login-form {
+  z-index: 999;
+  position: relative;
+}
+.passwordInput {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.login-form input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.blur-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+
+  background: rgba(52, 182, 111, 0.2);
+
+  filter: blur(200px);
+}
+.googleIcon {
+  position: relative;
+  background-color: #ffffff !important;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+  border-radius: 8px;
+  border: #ffffff !important;
+  z-index: 9999;
+}
+.buttons {
+  width: 450px;
+  height: 50px;
+}
+.color {
+  color: #e11045;
+}
+.check {
+  font-size: 12px !important;
+}
+.bottom-link {
+  font-size: 18px;
+}
+.form-check-input {
+  width: 24px;
+  height: 24px;
+  border-color: #e11045 !important;
+}
+.form-check-input:checked {
+  background-color: #e11045 !important;
+  border-color: #e11045 !important;
+}
+.link-btn:hover {
+  color: #e11045;
+}
+
+@media screen and (max-width: 480px) {
+  .login-form-heading {
+    font-size: 24px;
+  }
+  .login-form-box p {
+    font-size: 14px;
+  }
+  .labels {
+    font-size: 14px;
+  }
+  .checking {
+    font-size: 14px;
+  }
+  .bg-transparent {
+    font-size: 14px;
+  }
+}

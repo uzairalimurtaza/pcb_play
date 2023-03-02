@@ -1,0 +1,115 @@
+.custom-select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  background: #f2fff8;
+  border: 1px solid #22621a;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+
+  color: #343a40;
+}
+
+.pcb-select-dropdown {
+  position: absolute;
+  top: 140%;
+  right: 10%;
+  /* transform-origin: bottom; */
+  opacity: 0;
+  z-index: 9999;
+  width: 130px;
+  background: #343a40;
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.pcb-select-dropdown .pcb-select-dropdown-box {
+  display: none;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.pcb-select-dropdown-item {
+  color: #fff;
+}
+.pcb-select-dropdown.show {
+  opacity: 1;
+  transform: translateY(0px) !important;
+
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #606060;
+}
+.pcb-select-dropdown.show .pcb-select-dropdown-box {
+  display: block;
+}
+.pcb-select-dropdown-box {
+  position: relative;
+
+  width: 100%;
+  border-radius: 8px;
+  height: 100%;
+  background-color: transparent;
+}
+.pcb-select-dropdown-box::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+
+  right: 5px;
+  width: 15px;
+  height: 15px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: red;
+  background: #343a40;
+  border-radius: 2px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.pcb-select-dropdown-item {
+  padding: 10px 14px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  word-wrap: break-word;
+  transition: background-color 100ms ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+}
+.pcb-select-dropdown-item:hover {
+  background: rgba(151, 151, 151, 0.1);
+}
+
+.pcb-select-dropdown-item.active::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  top: 0px;
+  left: -2px;
+  height: 95%;
+
+  background: #e11045;
+  box-shadow: 2px 0px 3px rgba(255, 46, 99, 0.4);
+}
+
+.pcb-select-dropdown-item.active:first-child::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  top: 2px;
+  left: -2px;
+  height: 95%;
+
+  background: #e11045;
+  box-shadow: 2px 0px 3px rgba(255, 46, 99, 0.4);
+}
+.pcb-select-btn {
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}

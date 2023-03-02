@@ -1,0 +1,50 @@
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form-box {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .login-form-box {
+    width: 100% !important;
+  }
+}
+.resend-btn {
+  color: #e11045;
+}
+.login-form-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 44px;
+  position: relative;
+  z-index: 1;
+}
+.login-form-box p {
+  position: relative;
+  z-index: 999;
+}
+.login-right-box {
+  position: relative;
+}
+
+.login-form {
+  z-index: 999;
+  position: relative;
+}
+.passwordInput {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.login-form input:focus {
+  outline: none;
+  box-shadow: none;
+}

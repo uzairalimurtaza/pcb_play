@@ -1,0 +1,218 @@
+.design-img {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+.design-overview-main {
+  width: 100%;
+  max-height: 500px;
+  overflow-y: auto;
+}
+.design-overview-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+}
+.design-overview-power-io,
+.design-overview-hc {
+  writing-mode: vertical-rl;
+  background: #fafafa;
+  border: 1px solid #343a40;
+  border-radius: 8px;
+  padding: 10px;
+  height: 100%;
+  text-align: center;
+  z-index: 999;
+}
+.design-overview-mcu-container {
+  position: relative;
+}
+.design-overview-mcu {
+  background: #f2fff8;
+  position: relative;
+  z-index: 999;
+
+  border: 1px solid #22621a;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.design-overview-mcu span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: lowercase;
+
+  color: #979797;
+}
+.design-overview-mcu p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-transform: lowercase;
+
+  color: #22621a;
+}
+.design-overview-component {
+  background: #f2fff8;
+  border: 1px solid #22621a;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  z-index: 999;
+}
+.design-overview-component span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: lowercase;
+
+  color: #979797;
+}
+.design-overview-component p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-transform: lowercase;
+
+  color: #22621a;
+}
+
+@media screen and (max-width: 480px) {
+  .design-overview-mcu {
+    width: 90px;
+    overflow: hidden;
+    padding: 0px;
+  }
+  .design-overview-mcu span {
+    font-size: 8px !important;
+  }
+  .design-overview-mcu p {
+    font-size: 8px !important;
+  }
+  .design-overview-component {
+    width: 90px;
+    overflow: hidden;
+    padding: 0px;
+  }
+  .design-overview-component span {
+    font-size: 8px !important;
+  }
+  .design-overview-component p {
+    font-size: 8px !important;
+  }
+}
+.component-line {
+  position: absolute;
+
+  height: 100px;
+  width: 0.1rem;
+
+  background-color: #22621a;
+
+  display: flex;
+}
+
+.component-line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 1px;
+  background-color: #22621a;
+}
+.component-line::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+  background-color: #22621a;
+
+  height: 1px;
+}
+.pcb-connector {
+  position: absolute;
+  width: 300px;
+  height: 2px;
+  right: 0;
+  top: 50%;
+  transform: translate(100%, -50%);
+  background: #3db2ff;
+}
+
+.interface-i2c,
+.interface-i2c::after,
+.interface-i2c::before {
+  background-color: #22621a !important;
+}
+.interface-canBus,
+.interface-canBus::after,
+.interface-canBus::before {
+  background-color: #e11045 !important;
+}
+.interface-spi,
+.interface-spi::after,
+.interface-spi::before {
+  background-color: #22621a !important;
+}
+.interface-ethernet,
+.interface-ethernet::after,
+.interface-ethernet::before {
+  background-color: #22621a !important;
+}
+.interface-uart,
+.interface-uart::after,
+.interface-uart::before {
+  background-color: #22621a !important;
+}
+.interface-usb,
+.interface-usb::after,
+.interface-usb::before {
+  background-color: #22621a !important;
+}
+.interface-powerDissipation,
+.interface-powerDissipation::after,
+.interface-powerDissipation::before {
+  background-color: black !important;
+}
+.interface-discreteIO,
+.interface-discreteIO::after,
+.interface-discreteIO::before {
+  background-color: #22621a !important;
+}
+.interface-analogInput,
+.interface-analogInput::after,
+.interface-analogInput::before {
+  background-color: #ffa24d !important;
+}

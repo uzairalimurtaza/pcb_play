@@ -1,0 +1,6 @@
+.pcb-gerenalLayout-container {
+  background: #fafafa;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

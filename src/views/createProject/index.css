@@ -1,0 +1,312 @@
+.category-list {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(52, 58, 64, 0.08);
+  border-radius: 8px;
+  padding: 13px;
+  overflow-x: auto;
+  min-height: 70px;
+  align-items: center;
+  width: 100%;
+}
+.category-list-item {
+  background: #ffffff;
+  border: 1px solid rgba(52, 58, 64, 0.2);
+  border-radius: 8px;
+
+  padding-inline: 8px;
+  padding-block: 4px;
+  width: max-content !important;
+  white-space: nowrap;
+}
+.category-list-item li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.093617px;
+  text-transform: lowercase;
+}
+.pcb-box-body label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  text-transform: lowercase;
+
+  color: #343a40;
+}
+.pcb-box-body input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  text-transform: lowercase;
+
+  color: #343a40;
+}
+.category-list-item:not([disabled]):hover {
+  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+}
+.category-list-item.active {
+  background: #343a40;
+  transition: all 0.3s ease-in-out;
+  color: #ffffff;
+}
+.add-to-cart-btn {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  outline: none !important;
+  color: #22621a !important;
+  background: #f2fff8 !important;
+  border: 1px solid rgba(52, 58, 64, 0.2) !important;
+}
+.cart-btn.active {
+  color: #ffffff !important;
+  background: #22621a !important;
+  border: 1px solid #22621a !important;
+}
+.subPart {
+  /* border-left: 3px solid #e11045 !important; */
+  position: relative;
+}
+.bottom-row {
+  box-shadow: inset 0px 0px 15px rgba(0, 132, 60, 0.2);
+}
+.subPart::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #e11045;
+}
+.subPart.topRow::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  transform-origin: top;
+  transform: scaleY(1.2);
+  background: #e11045;
+}
+.create-project-container {
+  padding-inline: 3rem !important;
+}
+.category-list::-webkit-scrollbar-thumb {
+  background: #e11045 !important;
+  border-radius: 10px;
+}
+
+.parameters-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.component-svg {
+  transition: all 0.3s ease-in-out;
+  fill: #343a40;
+}
+.component-svg.active {
+  transform: rotate(90deg);
+  fill: #e11045;
+}
+.parameters-table > tbody > tr > td {
+  padding: 0.5rem;
+  text-align: start;
+  pointer-events: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  height: 10px;
+}
+.parameters-table > thead > tr > th {
+  padding: 0.5rem;
+  text-align: start;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+.big-alert-list {
+  width: 70px;
+  margin: auto;
+}
+.big-alert-list li {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  display: flex;
+  justify-content: space-between;
+  text-transform: lowercase;
+  position: relative;
+  color: #ff2e63;
+}
+
+.big-alert-list li::after {
+  background: rgba(151, 151, 151, 0.2);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-2px);
+  right: 0;
+  width: 100%;
+  height: 1px;
+}
+.parameters-table > tbody > tr {
+  height: 10px !important;
+}
+.parameters-table > thead > tr {
+  height: 10px !important;
+
+  border-bottom: 5px solid rgba(34, 98, 26, 0.2);
+}
+.component-detail-box {
+  overflow: hidden;
+  display: none;
+  transform: translateY(-400px);
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+.remove-hover {
+  background-color: #ffffff !important;
+}
+.component-detail-box.active {
+  transform: translateY(0px);
+  display: table-row;
+}
+.component-detail-box:hover {
+  background-color: #ffffff !important;
+}
+.design-btn {
+  width: 297px;
+  height: 50px;
+  min-width: 100px;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 18px !important;
+}
+
+.cart-btn {
+  width: 90px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: lowercase;
+}
+.pcb-item-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.pcb-item-box p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  text-transform: lowercase;
+
+  color: #343a40;
+}
+.pcb-item-box span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 141%;
+  /* identical to box height, or 20px */
+
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+
+  color: #979797;
+}
+@media screen and (max-width: 480px) {
+  .create-project-container {
+    padding-inline: 1rem !important;
+  }
+  .pcb-top-heading {
+    font-size: 12px !important;
+  }
+}
+.project-table-box {
+  overflow: hidden !important;
+}
+@media screen and (max-width: 695px) {
+  .project-table-box {
+    overflow: auto !important;
+  }
+  .design-btn {
+    margin-top: 5px;
+  }
+  .pcb-top-heading h3 {
+    font-size: 20px !important;
+  }
+  .cart-btn {
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 1343px) {
+  .design-btn {
+    width: 197px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .project-table-box {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .project-table-box {
+    overflow: auto !important;
+  }
+  .pcb-top-heading h3 {
+    font-size: 25px !important;
+  }
+  .design-btn {
+    margin-top: 5px;
+    width: 197px !important;
+  }
+}
+@media screen and (max-width: 898px) {
+  .design-btn {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .pcb-top-heading h3 {
+    font-size: 20px !important;
+  }
+}
+.help-tour {
+  background: #f2fff8 !important;
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0px 140px 81px 22px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 24px !important;
+  min-width: 500px !important;
+}
+.pcb-tour-list li p {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
